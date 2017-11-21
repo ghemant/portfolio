@@ -14,6 +14,10 @@ body {
     letter-spacing: 0.01em
 }
 
+.IVE{
+    background-color: "#4527a0";
+}
+
 body.top-padding {
     padding-top: 60px
 }
@@ -341,6 +345,70 @@ section.white.page-title {
     color: #fff
 }
 
+/* IVE */
+.btn-color-purple {
+    color: #fff;
+    border-color: #4527A0;
+    background-color: #4527A0
+}
+
+.btn-color-out-purple {
+    color: #4527A0;
+    border-color: #4527A0;
+    background-color: transparent
+}
+
+.btn-color-out-purple:active,
+.btn-color-out-purple:focus,
+.btn-color-out-purple:hover {
+    background-color: #4527A0;
+    border-color: #4527A0;
+    color: #fff
+}
+
+/* FocusPen */
+.btn-color-yellow {
+    color: #fff;
+    border-color: #FBBF07;
+    background-color: #FBBF07
+}
+
+.btn-color-out-yellow {
+    color: #FBBF07;
+    border-color: #FBBF07;
+    background-color: transparent
+}
+
+.btn-color-out-yellow:active,
+.btn-color-out-yellow:focus,
+.btn-color-out-yellow:hover {
+    background-color: #FBBF07;
+    border-color: #FBBF07;
+    color: #fff
+}
+
+/* WEX */
+.btn-color-blue {
+    color: #fff;
+    border-color: #418BE6;
+    background-color: #418BE6
+}
+
+.btn-color-out-blue {
+    color: #418BE6;
+    border-color: #418BE6;
+    background-color: transparent
+}
+
+.btn-color-out-blue:active,
+.btn-color-out-blue:focus,
+.btn-color-out-blue:hover {
+    background-color:#418BE6;
+    border-color: #418BE6;
+    color: #fff
+}
+
+
 .go-top {
     width: 50px;
     height: 45px;
@@ -471,8 +539,8 @@ blockquote.testimonial p:first-child:before {
 
 @media (min-width:992px) {
     #topnav.scroll .navigation-menu > li > a {
-        padding-top: 20px;
-        padding-bottom: 20px
+        padding-top: 15px;
+        padding-bottom: 15px
     }
 }
 
@@ -622,7 +690,7 @@ blockquote.testimonial p:first-child:before {
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
-    line-height: 20px;
+    line-height: 16px;
     padding-left: 8px;
     padding-right: 8px
 }
@@ -648,7 +716,7 @@ blockquote.testimonial p:first-child:before {
     position: relative
 }
 
-/*
+
 #topnav .navigation-menu > li.has-submenu > a:after {
     content: "\e64b";
     font-family: "themify";
@@ -685,18 +753,18 @@ blockquote.testimonial p:first-child:before {
     font-weight: bold;
     line-height: 1
 }
-*/
+
 
 #topnav .logo {
     float: left;
-    padding: 15px 0;
+    padding: 16px 10px;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease
 }
 
 #topnav .logo img {
-    max-height: 65px;
+    max-height: 50px;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease
@@ -2554,6 +2622,10 @@ section.dark .nav-tabs.outline > li.active > a:hover {
     color: #e20d52!important
 }
 
+.yellow {
+    color: #FBBF07!important
+}
+
 .b-grey {
     background-color: #f7f7f7!important
 }
@@ -2640,7 +2712,7 @@ section.dark .nav-tabs.outline > li.active > a:hover {
 
 .row.foundations {
     margin-top: 50px;
-    margin-bottom: 50px
+    margin-bottom: 70px
 }
 
 .partnerapps-logo {
@@ -3106,7 +3178,7 @@ h1.fixed-text {
     }
     .row.foundations {
         margin-top: 20px;
-        margin-bottom: 20px
+        margin-bottom: 40px
     }
     .mh-600 {
         min-height: 0
@@ -3145,10 +3217,11 @@ h1.fixed-text {
     }
     #topnav .navigation-menu > li > a {
         color: #1e2022;
-        padding: 12px 15px
+        padding: 12px 15px;
+        font-size:16px;
     }
     #topnav .navigation-menu > li > a:hover {
-        color: #e20d52
+        color: 
     }
     #topnav .navigation-menu > li > a:after {
         position: absolute;
@@ -3830,7 +3903,7 @@ text-transform: none;
 }
 
 .pager {
-    margin: 5px 10px 18px 10px;
+    margin: 10px 5%;
   list-style: none;
   text-align: center;
   *zoom: 1;
@@ -3846,30 +3919,142 @@ text-transform: none;
 .pager li {
   display: inline;
 }
-.pager a {
-  display: inline-block;
-  padding: 5px 14px;
-  background-color: #fff;
-  border: 1px dotted #ddd;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-}
-.pager a:hover {
-  text-decoration: none;
-  background-color: #f5f5f5;
-}
+
 .pager .next a {
   float: right;
 }
 .pager .previous a {
   float: left;
 }
-.pager .disabled a,
-.pager .disabled a:hover {
-  color: #999999;
-  background-color: #fff;
-  cursor: default;
+
+
+/**** NEXT BUTTON *****/
+/* IVE */
+.pager .next .btn-color-purple {
+    color: #fff;
+    border-color: #4527A0;
+    background-color: #4527A0
+}
+
+.pager .next .btn-color-out-purple {
+    color: #4527A0;
+    border-color: #4527A0;
+    background-color: transparent
+}
+
+.pager .next .btn-color-out-purple:active,
+.pager .next .btn-color-out-purple:focus,
+.pager .next .btn-color-out-purple:hover {
+    background-color: #4527A0;
+    border-color: #4527A0;
+    color: #fff
+}
+
+/* FocusPen */
+.pager .next .btn-color-yellow {
+    color: #fff;
+    border-color: #FBBF07;
+    background-color: #FBBF07
+}
+
+.pager .next .btn-color-out-yellow {
+    color: #FBBF07;
+    border-color: #FBBF07;
+    background-color: transparent
+}
+
+.pager .next .btn-color-out-yellow:active,
+.pager .next .btn-color-out-yellow:focus,
+.pager .next .btn-color-out-yellow:hover {
+    background-color: #FBBF07;
+    border-color: #FBBF07;
+    color: #fff
+}
+
+/* WEX */
+.pager .next .btn-color-blue {
+    color: #fff;
+    border-color: #418BE6;
+    background-color: #418BE6
+}
+
+.pager .next .btn-color-out-blue {
+    color: #418BE6;
+    border-color: #418BE6;
+    background-color: transparent
+}
+
+.pager .next .btn-color-out-blue:active,
+.pager .next .btn-color-out-blue:focus,
+.pager .next .btn-color-out-blue:hover {
+    background-color:#418BE6;
+    border-color: #418BE6;
+    color: #fff
+}
+
+
+/***** PREVIOUS BUTTON ****/
+/* IVE */
+.pager .previous .btn-color-purple {
+    color: #fff;
+    border-color: #4527A0;
+    background-color: #4527A0
+}
+
+.pager .previous .btn-color-out-purple {
+    color: #4527A0;
+    border-color: #4527A0;
+    background-color: transparent
+}
+
+.pager .previous .btn-color-out-purple:active,
+.pager .previous .btn-color-out-purple:focus,
+.pager .previous .btn-color-out-purple:hover {
+    background-color: #4527A0;
+    border-color: #4527A0;
+    color: #fff
+}
+
+/* FocusPen */
+.pager .previous .btn-color-yellow {
+    color: #fff;
+    border-color: #FBBF07;
+    background-color: #FBBF07
+}
+
+.pager .previous .btn-color-out-yellow {
+    color: #FBBF07;
+    border-color: #FBBF07;
+    background-color: transparent
+}
+
+.pager .previous .btn-color-out-yellow:active,
+.pager .previous .btn-color-out-yellow:focus,
+.pager .previous .btn-color-out-yellow:hover {
+    background-color: #FBBF07;
+    border-color: #FBBF07;
+    color: #fff
+}
+
+/* WEX */
+.pager .previous .btn-color-blue {
+    color: #fff;
+    border-color: #418BE6;
+    background-color: #418BE6
+}
+
+.pager .previous .btn-color-out-blue {
+    color: #418BE6;
+    border-color: #418BE6;
+    background-color: transparent
+}
+
+.pager .previous .btn-color-out-blue:active,
+.pager .previous .btn-color-out-blue:focus,
+.pager .previous .btn-color-out-blue:hover {
+    background-color:#418BE6;
+    border-color: #418BE6;
+    color: #fff
 }
 
 .banner-image{
@@ -3877,13 +4062,16 @@ text-transform: none;
 }
 
 p.download a {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 100;
     background: #fff;
     box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
     padding: 0.6rem 1rem;
+    color:#418BE6;
     border-radius: 4px;
     transition-property: box-shadow, color;
     transition-duration: 150ms;
     transition-timing-function: cubic-bezier(0.4,0,0.2, 1);
 /*    font-family: 'Miriam Libre', sans-serif;*/
 }
+
