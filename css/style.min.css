@@ -775,6 +775,14 @@ background:#f9c41e ;
     -o-transition: all .3s ease;
     transition: all .3s ease
 }
+#topnav .logo a{
+    color: #f9c41e;
+        font-size: 1.6rem;
+    letter-spacing:2px;
+    font-weight: 600;
+    padding-top: auto
+    
+}
 
 #topnav .logo img {
     max-height: 40px;
