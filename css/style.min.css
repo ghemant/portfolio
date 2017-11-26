@@ -4184,3 +4184,8 @@ p.download a {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
+.recommendation-quote{
+ font-size: 3.4rem;  
+    color: #f9c41e;
+}
