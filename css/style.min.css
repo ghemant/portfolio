@@ -444,6 +444,8 @@ section.white.page-title {
 
 blockquote {
     border: 0
+    quotes: "\201C""\201D""\2018""\2019";
+
 }
 
 blockquote p {
@@ -4187,5 +4189,9 @@ p.download a {
 
 .recommendation-quote{
  font-size: 3.4rem;  
+    color: #f9c41e;
+}
+.reference-link{
+    text-decoration: none;
     color: #f9c41e;
 }
